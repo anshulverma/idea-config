@@ -1,2 +1,9 @@
 ## Temporary files
 *~
+*#*
+
+## Unwanted settings
+componentVersions/
+ideTalk/
+options/
+plugins/
