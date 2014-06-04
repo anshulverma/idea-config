@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="DatabaseView.ShowDiff" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="EditorDeleteToWordEnd" />
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt D" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="control BACK_SPACE" />
+  </action>
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
+  </action>
+  <action id="EditorKillToWordEnd" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="U" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="I" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="S" />
+  </action>
+</keymap>
+
