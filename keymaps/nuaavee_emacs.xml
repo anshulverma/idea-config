@@ -3,10 +3,16 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.DeleteRows">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="K" />
+  </action>
   <action id="DatabaseView.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="K" />
   </action>
   <action id="EditorDeleteToWordEnd" />
   <action id="EditorDeleteToWordEndInDifferentHumpsMode">
@@ -19,7 +25,13 @@
   <action id="EditorDeleteToWordStartInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
   </action>
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="D" />
+  </action>
   <action id="EditorKillToWordEnd" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="L" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="U" />
   </action>
