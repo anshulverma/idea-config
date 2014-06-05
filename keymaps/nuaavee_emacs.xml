@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Emacs (nuaavee)" parent="Emacs">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt SLASH" />
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="SPACE" />
+  </action>
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
@@ -37,6 +41,9 @@
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="I" />
+  </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="R" />
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="S" />
