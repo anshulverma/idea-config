@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Emacs (nuaavee)" parent="Emacs">
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="H" />
+  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt SLASH" />
     <keyboard-shortcut first-keystroke="control C" second-keystroke="SPACE" />
