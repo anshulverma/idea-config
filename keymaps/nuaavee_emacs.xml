@@ -50,6 +50,14 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="I" />
   </action>
+  <action id="Inline" />
+  <action id="IntroduceParameter" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="control alt N" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="control alt P" />
+  </action>
   <action id="NextSplitter" />
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="R" />
